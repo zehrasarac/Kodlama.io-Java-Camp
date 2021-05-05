@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		Student student = new Student();
-		student.setUserId(1);
+		student.setId(1);
 		student.setFirstName("Zehra");
 		student.setLastName("Saraç");
 		student.setEmail("zehrassarac@gmail.com");

@@ -1,7 +1,6 @@
 package kodlamaio;
 
 public class Instructor extends User{
-	int userId;
 	String firstName;
 	String lastName;
 	
@@ -10,17 +9,8 @@ public class Instructor extends User{
 	}
 
 	public Instructor(int userId, String firstName, String lastName) {
-		this.userId = userId;
 		this.firstName = firstName;
 		this.lastName = lastName;
-	}
-
-	public int getUserId() {
-		return userId;
-	}
-
-	public void setUserId(int userId) {
-		this.userId = userId;
 	}
 
 	public String getFirstName() {
